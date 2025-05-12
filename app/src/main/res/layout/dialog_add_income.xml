@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Income"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#9C27B0"/>
+
+    <EditText
+        android:id="@+id/etIncomeAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9C27B0"
+        android:backgroundTint="#9C27B0"/>
+
+    <EditText
+        android:id="@+id/etIncomeSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Source"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9C27B0"
+        android:backgroundTint="#9C27B0"/>
+
+    <EditText
+        android:id="@+id/etIncomeNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Note (Optional)"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9C27B0"
+        android:backgroundTint="#9C27B0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelIncome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Cancel"
+            android:backgroundTint="#757575"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnSaveIncome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Save"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
