@@ -1,13 +1,68 @@
-Zaka Tracker is a simple Android budgeting app that helps users manage their personal expenses effectively. The app allows users to:
+Zaka Tracker
+Zaka Tracker is a personal finance Android application that helps users track their daily expenses, monitor spending categories, and stay within their set monthly budget. Designed with simplicity and usability in mind, Zaka Tracker offers a clear, interactive interface backed by a local SQLite database.
 
-Add and categorize expenses by amount, description, date, and category.
+Features
+User Authentication – Secure sign-up and login system per user.
+Dashboard – Real-time summary showing total expenses and remaining budget.
+Expense Management – Add, view, edit, and delete individual expenses.
+Categorization – Organize expenses by category (e.g., Food, Transport, Entertainment).
+Budget Settings – Define or update your monthly budget.
+Offline Support – Data is stored locally using SQLite, no internet required.
+Modern UI – A sleek purple-themed interface for a clean and user-friendly experience.
 
-View total spending and track it over time.
+Screenshots
+Dashboard	Add Expense	View Expenses
+(Add screenshots in screenshots/ folder)		
 
-Set a monthly budget via the Budget Settings screen.
+Setup Instructions
+Requirements
+Android Studio (latest stable version)
 
-Automatically calculate remaining budget based on expenses.
+Android SDK 21 or above
+Emulator or physical Android device
+Kotlin support enabled
 
-Edit or delete expenses from the View Expenses screen.
+Steps
+Clone the repository
 
-All user data is stored securely using an SQLite database, and each user has personalized budget tracking. The app uses SharedPreferences to save and load individual budget settings.
+bash
+Copy
+Edit
+git clone https://github.com/Itumelengxo/Zaka-Tracker.git
+cd Zaka-Tracker
+Open the project in Android Studio
+
+Launch Android Studio.
+
+Go to File > Open, then select the Zaka-Tracker directory.
+
+Build and Sync
+
+Let Gradle sync the project.
+
+Install any missing dependencies if prompted.
+
+Run the App
+
+Select an emulator or connect a physical device.
+
+Click the Run button to build and launch the app.
+
+Start Using the App
+
+Sign up with a username.
+
+Set your monthly budget.
+
+Begin logging and tracking your expenses.
+
+Tech Stack
+Language: Kotlin
+
+Database: SQLite (via a custom DatabaseHelper class)
+
+UI: XML layouts with custom drawable styles
+
+Architecture: Activity-based structure
+
+Libraries: Android Jetpack components
