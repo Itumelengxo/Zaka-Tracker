@@ -1,3 +1,5 @@
+ITUMELENG KOLA-ST10075573
+LWANDLE MSIYA-ST10406108
 Zaka Tracker
 Zaka Tracker is a personal finance Android application that helps users track their daily expenses, monitor spending categories, and stay within their set monthly budget. Designed with simplicity and usability in mind, Zaka Tracker offers a clear, interactive interface backed by a local SQLite database.
 
